@@ -1,0 +1,412 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(247, 216, 239)
+}
+
+header {
+    min-height: 300px;
+    background: url('./day.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list-container div.container {
+    width: 450px;
+    min-height: 400px;
+    position: absolute;
+    top: -200px;
+}
+
+.list-container div.container h2 {
+    font-size: 2rem;
+    color: rgb(247, 244, 247);
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+div.list-item {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 10px;
+    border-radius: 4px;
+    height: 40px;
+    opacity: 0.93;
+}
+
+div.list-item input {
+    border: 0px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+i.fas.fa-plus {
+    color: purple;
+}
+
+.fas.fa-plus:hover {
+    cursor: pointer;
+}
+
+ol.todo-list {
+    margin-top: 10px;
+    padding: 10px;
+    max-height: 500px;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+ol .list-item {
+    margin: 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    transition: 0.5s ease-out;
+}
+
+ol .taskbar {
+    font-size: medium;
+    font-weight: 500;
+    color: lightslategray;
+    margin: 0px 10px;
+    opacity: 1;
+    margin: 10px;
+}
+
+div.active {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div#all {
+    margin: 0px 10px;
+}
+
+div#all:hover {
+    cursor: pointer;
+    color: violet;
+}
+
+div#pending {
+    margin: 0px 10px;
+}
+
+div#pending:hover {
+    cursor: pointer;
+    color: violet;
+}
+
+div#complete {
+    margin: 0px 10px
+}
+
+div#complete:hover {
+    cursor: pointer;
+    color: violet;
+}
+
+div.clear:hover {
+    cursor: pointer;
+    color: purple;
+}
+
+div.chores {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    max-height: 500px;
+    flex-direction: column;
+    margin: 6px;
+    padding: 10px;
+}
+
+div.item1 {
+    background-color: rgb(236, 193, 236);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+div.item2 {
+    background-color: rgb(236, 193, 236);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+div.item3 {
+    background-color: rgb(236, 193, 236);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 17px;
+}
+
+i.fa.fa-github {
+    margin: 0px 10px;
+    color: black;
+}
+
+i.fa.fa-twitter {
+    margin: 0px 10px;
+    color: rgb(76, 158, 252);
+}
+
+i.fa.fa-instagram {
+    margin: 0px 10px;
+    color: rgb(202, 15, 202);
+}
+
+#switch {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+label.switch-label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 70px;
+    height: 35px;
+    background: #fff;
+    display: block;
+    border-radius: 10px;
+    position: relative;
+}
+
+label.switch-label:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+    background: violet;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+input#switch:checked+label.switch-label {
+    background: #111;
+}
+
+input#switch:checked+label.switch-label:after {
+    background: purple;
+}
+
+input#switch:checked+label.switch-label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}
+
+#radio1:hover {
+    cursor: pointer;
+}
+
+#radio2:hover {
+    cursor: pointer;
+}
+
+#radio3:hover {
+    cursor: pointer
+}
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*  ------------------------------------------*/
+
+
+/*    Universal Styles   */
+
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Monoton";
+} */
+
+
+/* body {
+    background-color: rgb(203, 247, 247);
+} */
+
+
+/* a {
+    text-decoration: none;
+    color: inherit;
+} */
+
+
+/*    Header Styles   */
+
+
+/* header {
+    background-image: url('./day.jpeg');
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+
+/*   List section styles   */
+
+
+/*      Footer styles      */
+
+
+/* footer {
+    color: #000;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    padding: 10px;
+} */
+
+
+/* footer a {
+    color: #000 !important;
+} */
+
+
+/* footer i.fa-instagram {
+    color: purple;
+} */
+
+
+/* footer i.fa-linkedin {
+    color: dodgerblue;
+} */
+
+
+/* footer i.fa-github {
+    color: #000;
+} */
+
+
+/* footer i {
+    margin: 0px 10px;
+    /* margin: 10px 10px 10px 10px; */
+
+
+/* margin-left: 10px;
+    margin-right: 10px; 
+
+
+}
+*/
