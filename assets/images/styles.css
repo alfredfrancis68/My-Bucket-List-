@@ -6,12 +6,13 @@
 }
 
 body {
-    background-color: rgb(247, 216, 239)
+    /* background-color: rgb(247, 216, 239); */
+    background-color: rgb(193, 250, 233);
 }
 
 header {
     min-height: 300px;
-    background: url('./day.jpeg');
+    background: url('./1-slide-iceland-hikers-northern-lights-aurora-borealis-pano.jfif');
     background-size: cover;
     background-position: center;
 }
@@ -39,7 +40,8 @@ header {
 
 .list-container div.container h2 {
     font-size: 2rem;
-    color: rgb(247, 244, 247);
+    /* color: rgb(247, 244, 247); */
+    color: rgb(109, 245, 204);
     font-weight: bolder;
     margin-bottom: 20px;
 }
@@ -63,7 +65,8 @@ div.list-item input {
 }
 
 i.fas.fa-plus {
-    color: purple;
+    /* color: purple; */
+    color: rgb(0, 128, 111);
 }
 
 .fas.fa-plus:hover {
@@ -105,7 +108,7 @@ div#all {
 
 div#all:hover {
     cursor: pointer;
-    color: violet;
+    color: aqua;
 }
 
 div#pending {
@@ -114,7 +117,7 @@ div#pending {
 
 div#pending:hover {
     cursor: pointer;
-    color: violet;
+    color: aqua;
 }
 
 div#complete {
@@ -123,12 +126,12 @@ div#complete {
 
 div#complete:hover {
     cursor: pointer;
-    color: violet;
+    color: aqua;
 }
 
 div.clear:hover {
     cursor: pointer;
-    color: purple;
+    color: aqua;
 }
 
 div.chores {
@@ -142,27 +145,28 @@ div.chores {
 }
 
 div.item1 {
-    background-color: rgb(236, 193, 236);
+    background-color: aquamarine;
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
 }
 
 div.item2 {
-    background-color: rgb(236, 193, 236);
+    background-color: aquamarine;
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
 }
 
 div.item3 {
-    background-color: rgb(236, 193, 236);
+    background-color: aquamarine;
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
 }
 
 footer {
+    color: aquamarine;
     background-color: white;
     bottom: 0;
     left: 0;
@@ -172,6 +176,10 @@ footer {
     justify-content: space-between;
     padding: 5px;
     font-size: 17px;
+}
+
+footer a {
+    color: rgb(51, 248, 182);
 }
 
 i.fa.fa-github {
@@ -213,7 +221,7 @@ label.switch-label:after {
     left: 5px;
     width: 25px;
     height: 25px;
-    background: violet;
+    background: aqua;
     border-radius: 90px;
     transition: 0.3s;
 }
@@ -223,7 +231,7 @@ input#switch:checked+label.switch-label {
 }
 
 input#switch:checked+label.switch-label:after {
-    background: purple;
+    background: aqua;
 }
 
 input#switch:checked+label.switch-label:after {
