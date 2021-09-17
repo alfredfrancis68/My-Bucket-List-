@@ -11,8 +11,8 @@ body {
 }
 
 header {
-    min-height: 300px;
-    background: url('./1-slide-iceland-hikers-northern-lights-aurora-borealis-pano.jfif');
+    min-height: 80vh;
+    background: url('./northern-lights.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -179,7 +179,7 @@ footer {
 }
 
 footer a {
-    color: rgb(51, 248, 182);
+    color: black;
 }
 
 i.fa.fa-github {
